@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Vendor CSS Files -->
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.3.6-dist/css/bootstrap.min.css">
+
+    <!-- css style -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- HEADING -->
+    <header id="header" class="header d-flex align-items-center sticky-top">
+
+        <!-- navbar -->
+        <div class="container position-relative d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+                <img src="images/bezalyon logo.jpg" alt="">
+            </a>
+
+            <!-- navbar links -->
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html" >Home<br></a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#Blog" class="active">Blog</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li class="dropdown"><a href="#"><span>Others</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+            <a class="btn-getstarted" href="">Agent profiles</a>
+        </div>
+    </header>
+    <div class="blog_head text-center d-flex align-items-center">
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <h1>WELCOME TO BEZALYON BLOG PAGE</h1>
+            <p>Learn more about Real estate and things to know before buying a property</p>
+        </div>
+    </div>
+    <div>
+        <h1 class="text-center p-2 mt-5">
+            LATEST BLOG POSTS
+        </h1>
+        <div class="blogcard_container" id="containern">
+            <div class="blogcard">
+                <div class="blogcard_innerbox">
+                    <img class="blogcard_img" src="images/hand-giving-key-real-estate-agent.jpg" alt="" height="280px" width="300px">
+                    <div class="blogcard_textbox">
+                        <div class="blogcard_title">
+                            <h4>Home Buying
+                                <p class="blogcard_subtitle">Key Tips for Home Buyers</p>
+                            </h4>
+                        </div>
+                        <div class="blogcard_bar"></div>
+                        <div class="blogcard_description">
+                            <p>Buying a property is a significant milestone. For first-time buyers, it can seem overwhelming. Here are essential tips to navigate the process successfully...</p>
+                        </div>
+                        <div>
+                            <button onclick="blogpost()" class="blogcard_btn">read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+   
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
